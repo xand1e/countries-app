@@ -1,0 +1,56 @@
+.card{
+  padding: 1.5rem;
+    height: 100%;
+
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+
+
+    border: 2px solid var(--color);
+    border-radius: 2rem 1rem;
+
+    transition: backgorund-color .3s, transform .3s;
+
+}
+
+.flag{
+
+    width: 3rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+
+    border-radius: 50%;
+
+
+    background-size: cover;
+    background-position: center;
+    box-shadow: .2rem .2rem .2rem var(--color);
+
+
+}
+
+
+.name{
+
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 2rem;
+
+
+}
+
+.card:hover{
+
+
+    background-color: var(--green);
+    transform: scaleX(.9);
+
+}
+
+
+
+
